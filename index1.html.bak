@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cyberspace Conciousness: Microblogging </title>
+
+    <link rel="stylesheet" href="style1.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset= "UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+	<!----hero Section start---->
+ 
+	<div class="hero">
+			   <h2 id="section"> </h2>
+
+		<nav>
+		
+			<h2 class="logo"><span><img src="images/logo.png"class="logo"></span></h2>
+			<div class="navbar">
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#section-1">About Us</a></li>
+				<li><a href="typesofcybercrimes.html">Types</a></li>
+				<li><a href="#section-3">Contact Us</a></li>
+			</ul>
+				  <img src="images/menu.png" class= "menu-icon">
+
+		</nav>
+
+		<div class="content">
+			
+			<h1 >Conciousness Cyberspace</h1>
+			<h3>This website contains different forms of Cybercrimes</h3>
+			<div class="newslatter">
+				<form>
+					<input type = "search" value ="" placeholder="Search..." id="search" onchange= "openPage()">
+                 <script>
+                 	function openPage(){
+                 		 var a = document.getElementById("search").value;
+
+            if (a === "phishing") {
+                window.open("phishing.html");
+            }
+
+            if (a === "cyberbullying") {
+                window.open("cyberbullying.html");
+            }
+
+            if (a === "cyberstalking") {
+                window.open("cyberstalking.html");
+            }
+
+            if (a === "copyright infringement") {
+                window.open("copyrightinfringement.html");
+            }
+
+            if (a === "ddos attack") {
+                window.open("ddosattack.html");
+            }
+
+            if (a === "credit card fraud") {
+                window.open("creditcardfraud.html");
+            }
+            if (a === "botnets") {
+                window.open("botnets.html");
+            }
+            if (a === "bruteforce") {
+                window.open("bruteforce.html");
+            }
+             if (a === "sextortion") {
+                window.open("sextortion.html");
+            }
+               if (a === "malware") {
+                window.open("malware.html");
+            }
+             if (a === "online defamation") {
+                window.open("onlinedefamation.html");
+            }
+             if (a === "account hacking") {
+                window.open("accounthacking.html");
+            } 
+             if (a === "scamming") {
+                window.open("scamming.html");
+            }
+            if (a === "identity theft") {
+                window.open("identitytheft.html");
+            }
+            if (a === "cyber grooming") {
+                window.open("cybergrooming.html");
+            }
+
+
+                 	} 
+                 	
+                 </script> 
+					<input type="submit" name="submit" value="Enter">
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<!----About section start---->
+	   <h2 id="section-1"> </h2>
+		<section class="about">
+			<div class="main">
+				<img src="images/aboutus.png">
+						<div class="about-text">
+				<h2>About Us</h2>
+				<h5>Researchers<span> From 12 ICT 2</span></h5>
+<p>In the Philippines there are a huge cybercrime rate that has been recorded on June 2021 by Statista. So as a students, we want to help to reduce the percentage of this type of crime by creating a website that will provide an useful information on how to avoid and determine those type of illegal activities that occurs in cyberspace.
+ The developers are from Arellano University Jose Abad Santos who aim to increase the awareness of cybercrime among the teachers and students. This microblogging is significant because the use of internet nowadays is prevalent due to the helpfulness of it in every individual. However, some of them using this to commit crime. So, with the help of this website, the user knowledge in different form of cybercrime will be improved. </p>
+				<button type="button"href="">Okay</button>
+			</div>
+		</div>
+	</section>
+
+	<!-----service section start----------->
+		  
+
+	<!------What is Cybercrime?------>
+	
+
+	<!------footer start--------->
+		   <h2 id="section-3"> </h2>
+
+	<footer>
+
+		<p>Group Six of 12 ICT 2 in AUJAS</p>
+		<p>If you think that our website is helpful, let us know by contacting us to the socials that we provided below:</p>
+		<div class="social">
+			<a href="https://www.facebook.com/ReymartManginsay"><i class="fab fa-facebook-f"></i></a>
+			<a href="https://www.instagram.com/martskrrt/"><i class="fab fa-instagram"></i></a>
+			<a href="#"><i class="fab fa-telegram"></i></a>
+			
+		</div>
+		
+
+		  <a href="#" class="to-top">
+    <i class="	far fa-arrow-alt-circle-up"></i>
+  </a>
+
+  <script src="1.js"></script>
+</body>
+
+	</footer>
+</body>
+</html>
+

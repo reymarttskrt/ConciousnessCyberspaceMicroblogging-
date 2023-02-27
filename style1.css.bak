@@ -1,0 +1,1564 @@
+*{ 
+	padding: 0;
+	margin: 0;
+	font-family: 'Josefin Sans', sans-serif;
+	box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+.hero{
+	height: 100vh;
+	width: 100%;
+	background-image: url(background.png);
+	background-size: cover;
+	background-position: center;
+}
+.to-top {
+  background: #2C74B3;
+  position: fixed;
+  bottom: 16px;
+  right:32px;
+  width:50px;
+  height:50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size:32px;
+  color:#white;
+  text-decoration: none;
+  opacity:0;
+  pointer-events: none;
+  transition: all .4s;
+}
+
+.to-top.active {
+  bottom:32px;
+  pointer-events: auto;
+  opacity:1;
+}
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 45px;
+	padding-left: 8%;
+	padding-right: 8%;
+}
+.navbar{
+	height:12%;
+	display:flex;
+	align-items:center;
+}
+.logo {
+	width: 80px;
+	cursor:pointer;
+}
+span{
+	color: #0081C9;
+}
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px  25px;
+}
+nav ul li a{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+nav ul li a:hover{
+	color: #2C74B3;
+	transition: .4s;
+}
+.menu-icon{
+	width: 30px;
+	cursor: pointer;
+	margin-left: 40px;
+}
+.btn:hover{
+	transform: scale(1.2);
+}
+.content{
+
+	position: absolute;
+	top: 50%;
+	left:8%;
+	transform: translateY(-50%);
+}
+h1{
+	color: white;
+	margin: 20px 0px 20px;
+	font-size: 75px;
+}
+h3{
+	color: white;
+	font-size: 25px;
+	margin-bottom: 50px;
+}
+h4{
+	color: #fcfc;
+	letter-spacing: 2px;
+	font-size: 20px;
+}
+.newslatter form{
+	width: 380px;
+	max-width: 100%;
+	position: relative;
+}
+.newslatter form input:first-child{
+	display: inline-block;
+	width: 100%;
+	padding: 14px 130px 14px 15px;
+	border: 2px solid #144272;
+	outline: none;
+	border-radius: 30px;
+}
+.newslatter form input:last-child{
+	position: absolute;
+	display: inline-block;
+	outline: none;
+	border: none;
+	padding: 10px 30px;
+	border-radius: 30px;
+	background-color:#144272;
+	color: white;
+	box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+	top: 6px;
+	right: 6px; 
+}
+
+.about{
+	width: 100%;
+	padding: 100px 0px;
+	background-color: #191919;
+}
+.about img{
+	height: auto;
+	width:550px;
+	height:auto; 
+	border-radius: 5%;
+
+}
+.about-text{
+	width: 550px;
+}
+	
+
+.main{
+	width: 1130px;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.about-text h2{
+	color: white;
+	font-size: 75px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+}
+.about-text h5{
+	color: white;
+	letter-spacing: 2px;
+	font-size: 22px;
+	margin-bottom: 25px;
+	text-transform: capitalize;
+}
+.about-text p{
+	color: #fff;
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-size: 18px;
+	margin-bottom: 45px;
+}
+
+button{
+	background-color:#144272;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 13px 30px;
+	border-radius: 30px;
+	transition: .4s; 
+}
+button:hover{
+	background-color: transparent;
+	border: 2px solid #144272;
+	cursor: pointer;
+}
+.service{
+	background: #101010;
+	width: 100%;
+	padding: 20px 0px;
+}
+.service1{
+	background: #101010;
+	width: 100%;
+	padding: 25px 0px;
+}
+.service2{
+	background: #101010;
+	width: 100%;
+	padding: 25px 0px;
+}
+.service3{
+	background: #101010;
+	width: 100%;
+	padding: 25px 0px;
+}
+.service4{
+	background: #101010;
+	width: 100%;
+	padding: 25px 0px;
+}
+.service5{
+	background: #101010;
+	width: 100%;
+	padding: 25px 0px;
+}
+.service6{
+	background: #101010;
+	width: 100%;
+	padding: 25px 0px;
+}
+.service7{
+	background: #101010;
+	width: 100%;
+	padding: 25px 0px;
+}
+.service8{
+	background: #101010;
+	width: 100%;
+	padding: 25px 0px;
+}
+.service9{
+	background: #101010;
+	width: 100%;
+	padding: 90px 0px;
+}
+.service10{
+	background: #101010;
+	width: 100%;
+	padding: 25px 0px;
+}
+.service11{
+	background: #101010;
+	width: 100%;
+	padding: 25px 0px;
+}
+.service12{
+	background: #101010;
+	width: 100%;
+	padding: 25px 0px;
+}
+.service13{
+	background: #101010;
+	width: 100%;
+	padding: 25px 0px;
+}.service14{
+	background: #101010;
+	width: 100%;
+	padding: 25px 0px;
+}.service15{
+	background: #101010;
+	width: 100%;
+	padding: 25px 0px;
+}
+.title h2{
+	color: white;
+	font-size: 80px;
+	width: 1130px;
+	margin: 30px auto;
+	text-align: center;
+}
+.box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 400px;
+}
+.box1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 420px;
+}
+.box2{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 420px;
+}
+.box3{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 420px;
+}
+.box4{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 420px;
+}
+.box5{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 420px;
+}
+.box6{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 420px;
+}
+.box7{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 420px;
+}
+.box8{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 420px;
+}
+.box9{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 420px;
+}
+.box10{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 420px;
+}
+.box11{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 420px;
+}
+.box12{
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 420px;
+}
+.box13{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 420px;
+}
+.box14{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 420px;
+}
+.box15{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 420px;
+}
+.card{
+	height: 365px;
+	width: 335px;
+	padding: 20px 35px;
+	background: #191919;
+	border-radius: 20px;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+}
+.card1{
+	height: 920px;
+	width: 750px;
+	padding: 20px 35px;
+	background: #191919;
+	border-radius: 20px;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+}
+.card2{
+	height: 1000px;
+	width: 750px;
+	padding: 20px 35px;
+	background: #191919;
+	border-radius: 20px;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+}
+.card3{
+	height: 900px;
+	width: 750px;
+	padding: 20px 35px;
+	background: #191919;
+	border-radius: 20px;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+}
+.card4{
+	height: 1070px;
+	width: 750px;
+	padding: 20px 35px;
+	background: #191919;
+	border-radius: 20px;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+}
+.card5{
+	height: 1050px;
+	width: 750px;
+	padding: 20px 35px;
+	background: #191919;
+	border-radius: 20px;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+}
+.card6{
+	height: 1165px;
+	width: 750px;
+	padding: 20px 35px;
+	background: #191919;
+	border-radius: 20px;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+}
+.card7{
+	height: auto;
+	width: 750px;
+	padding: 20px 35px;
+	background: #191919;
+	border-radius: 20px;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+}
+.card8{
+	height: 920px;
+	width: 750px;
+	padding: 20px 35px;
+	background: #191919;
+	border-radius: 20px;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+}
+.card9{
+	height: 750px;
+	width: 750px;
+	padding: 20px 35px;
+	background: #191919;
+	border-radius: 20px;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+}
+.card10{
+	height: 1340px;
+	width: 750px;
+	padding: 20px 35px;
+	background: #191919;
+	border-radius: 20px;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+}
+.card11{
+	height: 1230px;
+	width: 750px;
+	padding: 20px 35px;
+	background: #191919;
+	border-radius: 20px;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+}.card12{
+	height: 1230px;
+	width: 750px;
+	padding: 20px 35px;
+	background: #191919;
+	border-radius: 20px;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+}
+.card13{
+	height: 1450px;
+	width: 750px;
+	padding: 20px 35px;
+	background: #191919;
+	border-radius: 20px;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+}
+.card14{
+	height: 2650px;
+	width: 750px;
+	padding: 20px 35px;
+	background: #191919;
+	border-radius: 20px;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+}
+.card15{
+	height: 2580px;
+	width: 750px;
+	padding: 20px 35px;
+	background: #191919;
+	border-radius: 20px;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+}
+.card1 h5 {
+	color: white;
+	font-size: 30px;
+	margin: 10px auto;
+	text-align: left;
+}
+.card1 p{
+    color: #B5D1E2 ;
+	font-size: 16px;
+	line-height: 27px;
+	margin-bottom: 25px;
+    text-align: left;
+}
+.card1 a{
+    color: #B5D1E2 ;
+	font-size: 18px;
+	line-height: 27px;
+	margin-bottom: 25px;
+    text-align: left;
+}
+.card i{
+	font-size: 50px;
+	display: block;
+	text-align: center;
+	margin: 25px 0px;
+	color: #2C74B3;
+
+}
+.card1 i{
+	font-size: 70px;
+	display: block;
+	text-align: center;
+	margin: 25px 0px;
+	color: #2C74B3;
+
+}
+.card2 h5 {
+	color: white;
+	font-size: 30px;
+	margin: 10px auto;
+	text-align: left;
+}
+.card2 p{
+    color: #B5D1E2 ;
+	font-size: 16px;
+	line-height: 27px;
+	margin-bottom: 25px;
+    text-align: left;
+}
+.card2 a{
+    color: #B5D1E2 ;
+	font-size: 18px;
+	line-height: 27px;
+	margin-bottom: 25px;
+    text-align: left;
+}
+.card2 i{
+	font-size: 50px;
+	display: block;
+	text-align: center;
+	margin: 25px 0px;
+	color: #2C74B3;
+}
+
+.card3 h5 {
+	color: white;
+	font-size: 30px;
+	margin: 10px auto;
+	text-align: left;
+}
+.card3 p{
+    color: #B5D1E2 ;
+	font-size: 16px;
+	line-height: 27px;
+	margin-bottom: 25px;
+    text-align: left;
+}
+.card3 a{
+    color: #B5D1E2 ;
+	font-size: 18px;
+	line-height: 27px;
+	margin-bottom: 25px;
+    text-align: left;
+}
+.card3 i{
+	font-size: 50px;
+	display: block;
+	text-align: center;
+	margin: 25px 0px;
+	color: #2C74B3;
+}
+.card4 h5 {
+	color: white;
+	font-size: 30px;
+	margin: 10px auto;
+	text-align: left;
+}
+.card4 p{
+    color: #B5D1E2 ;
+	font-size: 16px;
+	line-height: 27px;
+	margin-bottom: 25px;
+    text-align: left;
+}
+.card4 a{
+    color: #B5D1E2 ;
+	font-size: 18px;
+	line-height: 27px;
+	margin-bottom: 25px;
+    text-align: left;
+}
+.card4 i{
+	font-size: 50px;
+	display: block;
+	text-align: center;
+	margin: 25px 0px;
+	color: #2C74B3;
+}
+.card5 h5 {
+	color: white;
+	font-size: 30px;
+	margin: 10px auto;
+	text-align: left;
+}
+.card5 p{
+    color: #B5D1E2 ;
+	font-size: 16px;
+	line-height: 27px;
+	margin-bottom: 25px;
+    text-align: left;
+}
+.card5 a{
+    color: #B5D1E2 ;
+	font-size: 18px;
+	line-height: 27px;
+	margin-bottom: 25px;
+    text-align: left;
+}
+.card5 i{
+	font-size: 50px;
+	display: block;
+	text-align: center;
+	margin: 25px 0px;
+	color: #2C74B3;
+}
+.card6 h5 {
+	color: white;
+	font-size: 30px;
+	margin: 10px auto;
+	text-align: left;
+}
+.card6 p{
+    color: #B5D1E2 ;
+	font-size: 16px;
+	line-height: 27px;
+	margin-bottom: 25px;
+    text-align: left;
+}
+.card6 a{
+    color: #B5D1E2 ;
+	font-size: 18px;
+	line-height: 27px;
+	margin-bottom: 25px;
+    text-align: left;
+}
+.card6 i{
+	font-size: 50px;
+	display: block;
+	text-align: center;
+	margin: 25px 0px;
+	color: #2C74B3;
+}
+.card7 h5 {
+	color: white;
+	font-size: 30px;
+	margin: 10px auto;
+	text-align: left;
+}
+.card7 p{
+    color: #B5D1E2 ;
+	font-size: 16px;
+	line-height: 27px;
+	margin-bottom: 25px;
+    text-align: left;
+}
+.card7 a{
+    color: #B5D1E2 ;
+	font-size: 18px;
+	line-height: 27px;
+	margin-bottom: 25px;
+    text-align: left;
+}
+.card7 i{
+	font-size: 50px;
+	text-align: center;
+	margin: 25px 0px;
+	color: #2C74B3;
+}
+.card8 h5 {
+	color: white;
+	font-size: 30px;
+	margin: 10px auto;
+	text-align: left;
+}
+.card8 p{
+    color: #B5D1E2 ;
+	font-size: 16px;
+	line-height: 27px;
+	margin-bottom: 25px;
+    text-align: left;
+}
+.card8 a{
+    color: #B5D1E2 ;
+	font-size: 18px;
+	line-height: 27px;
+	margin-bottom: 25px;
+    text-align: left;
+}
+.card8 i{
+	font-size: 50px;
+	display: block;
+	text-align: center;
+	margin: 25px 0px;
+	color: #2C74B3;
+}
+.card9 h5 {
+	color: white;
+	font-size: 30px;
+	margin: 10px auto;
+	text-align: left;
+}
+.card9 p{
+    color: #B5D1E2 ;
+	font-size: 16px;
+	line-height: 27px;
+	margin-bottom: 25px;
+    text-align: left;
+}
+.card9 a{
+    color: #B5D1E2 ;
+	font-size: 18px;
+	line-height: 27px;
+	margin-bottom: 25px;
+    text-align: left;
+}
+.card9 i{
+	font-size: 50px;
+	display: block;
+	text-align: center;
+	margin: 25px 0px;
+	color: #2C74B3;
+}
+.card10 h5 {
+	color: white;
+	font-size: 30px;
+	margin: 10px auto;
+	text-align: left;
+}
+.card10 p{
+    color: #B5D1E2 ;
+	font-size: 16px;
+	line-height: 27px;
+	margin-bottom: 25px;
+    text-align: left;
+}
+.card10 a{
+    color: #B5D1E2 ;
+	font-size: 18px;
+	line-height: 27px;
+	margin-bottom: 25px;
+    text-align: left;
+}
+.card10 i{
+	font-size: 50px;
+	display: block;
+	text-align: center;
+	margin: 25px 0px;
+	color: #2C74B3;
+}
+.card11 h5 {
+	color: white;
+	font-size: 30px;
+	margin: 10px auto;
+	text-align: left;
+}
+.card11 p{
+    color: #B5D1E2 ;
+	font-size: 16px;
+	line-height: 27px;
+	margin-bottom: 25px;
+    text-align: left;
+}
+.card11 a{
+    color: #B5D1E2 ;
+	font-size: 18px;
+	line-height: 27px;
+	margin-bottom: 25px;
+    text-align: left;
+}
+.card11 i{
+	font-size: 50px;
+	display: block;
+	text-align: center;
+	margin: 25px 0px;
+	color: #2C74B3;
+}
+.card12 h5 {
+	color: white;
+	font-size: 30px;
+	margin: 10px auto;
+	text-align: left;
+}
+.card12 p{
+    color: #B5D1E2 ;
+	font-size: 16px;
+	line-height: 27px;
+	margin-bottom: 25px;
+    text-align: left;
+}
+.card12 a{
+    color: #B5D1E2 ;
+	font-size: 18px;
+	line-height: 27px;
+	margin-bottom: 25px;
+    text-align: left;
+}
+.card12 i{
+	font-size: 50px;
+	display: block;
+	text-align: center;
+	margin: 25px 0px;
+	color: #2C74B3;
+}
+.card13 h5 {
+	color: white;
+	font-size: 30px;
+	margin: 10px auto;
+	text-align: left;
+}
+.card13 p{
+    color: #B5D1E2 ;
+	font-size: 16px;
+	line-height: 27px;
+	margin-bottom: 25px;
+    text-align: left;
+}
+.card13 a{
+    color: #B5D1E2 ;
+	font-size: 18px;
+	line-height: 27px;
+	margin-bottom: 25px;
+    text-align: left;
+}
+.card13 i{
+	font-size: 50px;
+	display: block;
+	text-align: center;
+	margin: 25px 0px;
+	color: #2C74B3;
+}
+.card14 h5 {
+	color: white;
+	font-size: 30px;
+	margin: 10px auto;
+	text-align: left;
+}
+.card14 p{
+    color: #B5D1E2 ;
+	font-size: 16px;
+	line-height: 27px;
+	margin-bottom: 25px;
+    text-align: left;
+}
+.card14 a{
+    color: #B5D1E2 ;
+	font-size: 18px;
+	line-height: 27px;
+	margin-bottom: 25px;
+    text-align: left;
+}
+.card14 i{
+	font-size: 50px;
+	display: block;
+	text-align: center;
+	margin: 25px 0px;
+	color: #2C74B3;
+}
+.card15 h5 {
+	color: white;
+	font-size: 30px;
+	margin: 10px auto;
+	text-align: left;
+}
+.card15 p{
+    color: #B5D1E2 ;
+	font-size: 16px;
+	line-height: 27px;
+	margin-bottom: 25px;
+    text-align: left;
+}
+.card15 a{
+    color: #B5D1E2 ;
+	font-size: 18px;
+	line-height: 27px;
+	margin-bottom: 25px;
+    text-align: left;
+}
+.card15 i{
+	font-size: 50px;
+	display: block;
+	text-align: center;
+	margin: 25px 0px;
+	color: #2C74B3;
+}
+
+h5{
+	color: white;
+	font-size: 18px;
+	margin-bottom: 15px;
+}
+h6{
+	color: white;
+	font-size: 40px;
+	margin-bottom: 15px;
+}
+ul li {
+  content: "\2022";
+  color: #B5D1E2;
+  line-height: 18px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.pra p{
+	color: #B5D1E2 ;
+	font-size: 16px;
+	line-height: 27px;
+	margin-bottom: 25px;
+}
+.pra a{
+	color: #B5D1E2 ;
+	font-size: 18px;
+	line-height: 27px;
+	margin-bottom: 25px;
+}
+.card .button{
+	background-color:#2C74B3;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 9px 22px;
+	border-radius: 30px;
+	transition: .4s; 
+}
+
+.card .button:hover{
+	background-color: transparent;
+	border: 2px solid #043E7D;
+	cursor: pointer;
+}
+.card1 .button:hover{
+	background-color: transparent;
+	border: 2px solid #043E7D;
+	cursor: pointer;
+}
+.card1 .button{
+	background-color:#2C74B3;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 9px 15px;
+	border-radius: 10px;
+	transition: .4s; 
+}
+.card2 .button:hover{
+	background-color: transparent;
+	border: 2px solid #043E7D;
+	cursor: pointer;
+}
+.card2 .button{
+	background-color:#2C74B3;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 9px 15px;
+	border-radius: 10px;
+	transition: .4s; 
+}
+.card3 .button:hover{
+	background-color: transparent;
+	border: 2px solid #043E7D;
+	cursor: pointer;
+}
+.card3 .button{
+	background-color:#2C74B3;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 9px 15px;
+	border-radius: 10px;
+	transition: .4s; 
+}.card4 .button:hover{
+	background-color: transparent;
+	border: 2px solid #043E7D;
+	cursor: pointer;
+}
+.card4 .button{
+	background-color:#2C74B3;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 9px 15px;
+	border-radius: 10px;
+	transition: .4s; 
+}
+.card5 .button:hover{
+	background-color: transparent;
+	border: 2px solid #043E7D;
+	cursor: pointer;
+}
+.card5 .button{
+	background-color:#2C74B3;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 9px 15px;
+	border-radius: 10px;
+	transition: .4s; 
+}
+.card6 .button:hover{
+	background-color: transparent;
+	border: 2px solid #043E7D;
+	cursor: pointer;
+}
+.card6 .button{
+	background-color:#2C74B3;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 9px 15px;
+	border-radius: 10px;
+	transition: .4s; 
+}
+.card7 .button:hover{
+	background-color: transparent;
+	border: 2px solid #043E7D;
+	cursor: pointer;
+}
+.card7 .button{
+	background-color:#2C74B3;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 9px 15px;
+	border-radius: 10px;
+	transition: .4s; 
+}
+.card8 .button:hover{
+	background-color: transparent;
+	border: 2px solid #043E7D;
+	cursor: pointer;
+}
+.card8 .button{
+	background-color:#2C74B3;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 9px 15px;
+	border-radius: 10px;
+	transition: .4s; 
+}
+.card9 .button:hover{
+	background-color: transparent;
+	border: 2px solid #043E7D;
+	cursor: pointer;
+}
+.card9 .button{
+	background-color:#2C74B3;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 9px 15px;
+	border-radius: 10px;
+	transition: .4s; 
+}
+.card10 .button:hover{
+	background-color: transparent;
+	border: 2px solid #043E7D;
+	cursor: pointer;
+}
+.card10 .button{
+	background-color:#2C74B3;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 9px 15px;
+	border-radius: 10px;
+	transition: .4s; 
+}
+.card11 .button:hover{
+	background-color: transparent;
+	border: 2px solid #043E7D;
+	cursor: pointer;
+}
+.card11 .button{
+	background-color:#2C74B3;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 9px 15px;
+	border-radius: 10px;
+	transition: .4s; 
+}
+.card12 .button:hover{
+	background-color: transparent;
+	border: 2px solid #043E7D;
+	cursor: pointer;
+}
+.card12 .button{
+	background-color:#2C74B3;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 9px 15px;
+	border-radius: 10px;
+	transition: .4s; 
+}
+.card13.button:hover{
+	background-color: transparent;
+	border: 2px solid #043E7D;
+	cursor: pointer;
+}
+.card13 .button{
+	background-color:#2C74B3;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 9px 15px;
+	border-radius: 10px;
+	transition: .4s; 
+}
+.card14 .button:hover{
+	background-color: transparent;
+	border: 2px solid #043E7D;
+	cursor: pointer;
+}
+.card14 .button{
+	background-color:#2C74B3;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 9px 15px;
+	border-radius: 10px;
+	transition: .4s; 
+}
+.card15 .button:hover{
+	background-color: transparent;
+	border: 2px solid #043E7D;
+	cursor: pointer;
+}
+.card15 .button{
+	background-color:#2C74B3;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 9px 15px;
+	border-radius: 10px;
+	transition: .4s; 
+}
+.about1{
+	width: 100%;
+	padding: 5px 0px;
+	background-color: #101010;
+}
+.about2{
+	width: 100%;
+	padding: 5px 0px;
+	background-color: #101010;
+}
+.about3{
+	width: 100%;
+	padding: 5px 0px;
+	background-color: #101010;
+}
+.contact-me{
+	width: 100%;
+	height: 290px;
+	background: #191919;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+.contact-me p{
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 25px;
+}
+.contact-me .button-two{
+	background-color:#2C74B3;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 13px 30px;
+	border-radius: 30px;
+	transition: .4s; 
+}
+.contact-me .button-two:hover{
+	background-color: transparent;
+	border: 2px solid #2C74B3;
+	cursor: pointer;
+}
+footer{
+	position: relative;
+	width: 100%;
+	height: 400px;
+	background: #101010;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+footer p:nth-child(1){
+	font-size: 30px;
+	color: white;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+footer p:nth-child(2){
+	color: white;
+	font-size: 17px;
+	width: 500px;
+	text-align: center;
+	line-height: 26px;
+}
+.social{
+	display: flex;
+}
+.social a{
+	width: 45px;
+	height: 45px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background:  #2C74B3;
+	border-radius: 50%;
+	margin: 22px 10px;
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+}
+.social a:hover{
+	transform: scale(1.3);
+	transition: .3s;
+}
+.end{
+	position: absolute;
+	color:#BLACK;
+	bottom: 35px;
+	font-size: 14px; 
+}
+.end1{
+	height: 100px;
+	width: 250px;
+	padding: 40px 35px;
+	background: #191919;
+	border-radius: 30px;
+	margin: 10px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+}
+.end1 .button:hover{
+	background-color: transparent;
+	border: 2px solid #043E7D;
+	cursor: pointer;
+}
+.end1 .button{
+	background-color:#2C74B3;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 9px 22px;
+	border-radius: 30px;
+	transition: .4s; 
+}
+@media screen and (max-width: 600px){
+	
+	h1 {
+	color: white;
+	margin: 10px 0px 10px;
+	font-size: 40px;
+	line-height: 50px;
+}
+    h3{
+	color: white;
+	font-size: 13px;
+	margin-bottom: 50px;
+}
+nav{
+	display: flex;
+	align-items: left;
+	justify-content: space-between;
+	padding-top: 45px;
+	padding-left: 5%;
+	padding-right: 8%;
+}
+.navbar{
+	height:12%;
+	display:flex;
+	align-items:left;
+ }
+    .logo {
+	width: 40px;
+	cursor:pointer;
+}
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 5px  2px;
+	font-size: 12px;
+}
+nav ul li a{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+nav ul li a:hover{
+	color: #2C74B3;
+	transition: .4s;
+}
+.menu-icon{
+	width: 0px;
+	cursor: pointer;
+	margin-left: 0px;
+}
+.newslatter form{
+	width: 200px;
+	max-width: 100%;
+	position: relative;
+}
+
+.newslatter form input:first-child{
+	display: inline-block;
+	width: 100%;
+	padding: 14px 130px 14px 15px;
+	border: 2px solid #144272;
+	outline: none;
+	border-radius: 30px;
+}
+.newslatter form input:last-child{
+	position: absolute;
+	display: inline-block;
+	outline: none;
+	border: none;
+	padding: 10px 10px;
+	border-radius: 30px;
+	background-color:#144272;
+	color: white;
+	box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+	top: 6px;
+	right: px; 
+
+}
+.about-text h2{
+	color: white;
+	font-size: 40px;
+	text-transform: capitalize;
+	margin-bottom: 5px;
+}
+.about-text h5{
+	color: white;
+	letter-spacing: 2px;
+	font-size: 18px;
+	margin-bottom: 25px;
+	text-transform: capitalize;
+}
+.about-text p{
+	color: #fff;
+	letter-spacing: 1px;
+	line-height: 20px;
+	font-size: 15px;
+	margin-bottom: 45px;
+}
+.about img{
+	height: auto;
+	width:0vw;
+	height:auto; 
+	border-radius: 5%;
+
+}
+button{
+	background-color:#144272;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 13px 30px;
+	border-radius: 30px;
+	transition: .4s; 
+}
+.title h2{
+	color: white;
+	font-size: 50px;
+	width: 380px;
+	margin: px auto;
+	text-align: center;
+}
+.service{
+	background: #101010;
+	width: 100%;
+	padding: 25px 0px;
+}
+footer{
+	position: relative;
+	width: 100%;
+	height: 400px;
+	background: #101010;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+footer p:nth-child(1){
+	font-size: 20px;
+	color: white;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+footer p:nth-child(2){
+	color: white;
+	font-size: 13px;
+	width: 300px;
+	text-align: center;
+	line-height: 20px;
+}
+.card{
+	height: 0px;
+	width:0px;
+	padding: 20px 35px;
+	background: #191919;
+	border-radius: 20px;
+	margin: 10px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+}
+.box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 0px;
+}
+.card i{
+	font-size: 0px;
+	text-align: center;
+	margin: 0px 0px;
+	color: #2C74B3;
+
+}
+h5{
+	color: white;
+	font-size: 0px;
+	margin-bottom: 0px;
+}
+.pra p{
+	color: #B5D1E2 ;
+	font-size: 0px;
+	line-height: 0px;
+	margin-bottom: 0px;
+}
+.pra a{
+	color: #B5D1E2 ;
+	font-size: 0px;
+	line-height: 0px;
+	margin-bottom: 0px;
+}
+.contact-me a{
+	color: white;
+	font-size: 15px;
+	font-weight: bold;
+	margin-bottom: 25px;
+	text-align: center;
+}
+.contact-me .button-two{
+	background-color:#2C74B3;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 13px 30px;
+	border-radius: 60px;
+	transition: .4s; 
+}
